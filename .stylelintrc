@@ -1,0 +1,12 @@
+{
+  "extends": [
+    "stylelint-config-standard"
+  ],
+  "plugins": [
+    "stylelint-selector-bem-pattern",
+    "stylelint-no-unsupported-browser-features"
+  ],
+  "rules" : {
+    "selector-class-pattern": "^([a-z][a-z0-9-]*)(__[a-z0-9-]+){0,1}$"
+  }
+}

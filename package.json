@@ -1,0 +1,37 @@
+{
+  "name": "cssgallery",
+  "version": "1.0.0",
+  "description": "A test of CSS skills",
+  "main": "index.js",
+  "scripts": {
+    "lint": "stylelint 'src/*.css'",
+    "start": "npx http-server src",
+    "cypress": "cypress open",
+    "test": "cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/appliedtechnology/jsfs-test-cssGallery.git"
+  },
+  "keywords": [
+    "css",
+    "html",
+    "cypress"
+  ],
+  "author": "Marcus Hammarberg (marcus@salt.dev)",
+  "license": "See LICENSE",
+  "bugs": {
+    "url": "https://github.com/appliedtechnology/jsfs-test-cssGallery/issues"
+  },
+  "homepage": "https://github.com/appliedtechnology/jsfs-test-cssGallery#readme",
+  "devDependencies": {
+    "cypress": "^9.6.0",
+    "stylelint": "^14.8.2",
+    "stylelint-config-standard": "^25.0.0",
+    "stylelint-no-unsupported-browser-features": "^5.0.3",
+    "stylelint-selector-bem-pattern": "^2.1.1"
+  },
+  "dependencies": {
+    "cypress-real-events": "^1.7.0"
+  }
+}
