@@ -1,13 +1,221 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CSS News</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <title>CSS News</title>
 </head>
 <body>
-  <h1>Write your code here</h1>
-  <p>Put the CSS in separate files in the same directory as <code>Index.html</code> and link them</p>
+<header class="header">
+    <h1>All the news - All the time</h1>
+    <h2>Welcome to my personnal news outlet</h2>
+    <nav>
+        <button class="header__breaking">Breaking</button>
+        <button class="header-button__international">International</button>
+        <button class="header__sport">Sports</button>
+    </nav>
+</header>
+<main>
+    <section class="news-section">
+        <h2 class="news-sections__title--flex">Breaking news</h2>
+        <hr>
+        <div class="news-section__articles--flex news-section__articles--grid">
+            <article class="articles__article">
+                <img src="https://picsum.photos/id/82/200/150" alt="image"/>
+                <div class="article__paragraph-bottom--grid">
+                    <h1>Heading</h1>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa praesentium illum dolorum dolores
+                        quod magnam error soluta, esse assumenda eum eius ea.</p>
+                    <div class="article__bottom--grid">
+                        <div class="buttons">
+                            <button type="button" class="article-bottom__button">Read</button>
+                            <button type="button" class="article-bottom__button">Share</button>
+                        </div>
+                        <b class="bottom__count--flex">316 words</b>
+                    </div>
+                </div>
+            </article>
+            <article class="articles__article">
+                <img src="https://picsum.photos/id/174/200/150" alt="image"/>
+                <div class="article__paragraph-bottom--grid">
+                    <h1>Heading</h1>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa praesentium illum dolorum dolores
+                        quod magnam error soluta, esse assumenda eum eius ea.</p>
+                    <div class="article__bottom--grid">
+                        <div class="buttons">
+                            <button type="button" class="article-bottom__button">Read</button>
+                            <button type="button" class="article-bottom__button">Share</button>
+                        </div>
+                        <b class="bottom__count--flex">316 words</b>
+                    </div>
+                </div>
+            </article>
+            <article class="articles__article">
+                <img src="https://picsum.photos/id/177/200/150" alt="image"/>
+                <div class="article__paragraph-bottom--grid">
+                    <h1>Heading</h1>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa praesentium illum dolorum dolores
+                        quod magnam error soluta, esse assumenda eum eius ea.</p>
+                    <div class="article__bottom--grid">
+                        <div class="buttons">
+                            <button type="button" class="article-bottom__button">Read</button>
+                            <button type="button" class="article-bottom__button">Share</button>
+                        </div>
+                        <b class="bottom__count--flex">316 words</b>
+                    </div>
+                </div>
+            </article>
+            <article class="articles__article">
+                <img src="https://picsum.photos/id/195/200/150" alt="image"/>
+                <div class="article__paragraph-bottom--grid">
+                    <h1>Heading</h1>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa praesentium illum dolorum dolores
+                        quod magnam error soluta, esse assumenda eum eius ea.</p>
+                    <div class="article__bottom--grid">
+                        <div class="buttons">
+                            <button type="button" class="article-bottom__button">Read</button>
+                            <button type="button" class="article-bottom__button">Share</button>
+                        </div>
+                        <b class="bottom__count--flex">316 words</b>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
+    <section class="news-section">
+        <h2 class="news-sections__title--flex">International news</h2>
+        <hr>
+        <div class="news-section__articles--flex news-section__articles--grid">
+            <article class="articles__article">
+                <img src="https://picsum.photos/id/15/200/150" alt="image"/>
+                <div class="article__paragraph-bottom--grid">
+                    <h1>Heading</h1>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa praesentium illum dolorum dolores
+                        quod magnam error soluta, esse assumenda eum eius ea.</p>
+                    <div class="article__bottom--grid">
+                        <div class="buttons">
+                            <button type="button" class="article-bottom__button">Read</button>
+                            <button type="button" class="article-bottom__button">Share</button>
+                        </div>
+                        <b class="bottom__count--flex">316 words</b>
+                    </div>
+                </div>
+            </article>
+            <article class="articles__article">
+                <img src="https://picsum.photos/id/43/200/150" alt="image"/>
+                <div class="article__paragraph-bottom--grid">
+                    <h1>Heading</h1>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa praesentium illum dolorum dolores
+                        quod magnam error soluta, esse assumenda eum eius ea.</p>
+                    <div class="article__bottom--grid">
+                        <div class="buttons">
+                            <button type="button" class="article-bottom__button">Read</button>
+                            <button type="button" class="article-bottom__button">Share</button>
+                        </div>
+                        <b class="bottom__count--flex">316 words</b>
+                    </div>
+                </div>
+            </article>
+            <article class="articles__article">
+                <img src="https://picsum.photos/id/49/200/150" alt="image"/>
+                <div class="article__paragraph-bottom--grid">
+                    <h1>Heading</h1>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa praesentium illum dolorum dolores
+                        quod magnam error soluta, esse assumenda eum eius ea.</p>
+                    <div class="article__bottom--grid">
+                        <div class="buttons">
+                            <button type="button" class="article-bottom__button">Read</button>
+                            <button type="button" class="article-bottom__button">Share</button>
+                        </div>
+                        <b class="bottom__count--flex">316 words</b>
+                    </div>
+                </div>
+            </article>
+            <article class="articles__article">
+                <img src="https://picsum.photos/id/85/200/150" alt="image"/>
+                <div class="article__paragraph-bottom--grid">
+                    <h1>Heading</h1>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa praesentium illum dolorum dolores
+                        quod magnam error soluta, esse assumenda eum eius ea.</p>
+                    <div class="article__bottom--grid">
+                        <div class="buttons">
+                            <button type="button" class="article-bottom__button">Read</button>
+                            <button type="button" class="article-bottom__button">Share</button>
+                        </div>
+                        <b class="bottom__count--flex">316 words</b>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
+    <section class="news-section">
+        <h2 class="news-sections__title--flex">Sport news</h2>
+        <hr>
+        <div class="news-section__articles--flex news-section__articles--grid">
+            <article class="articles__article">
+                <img src="https://picsum.photos/id/96/200/150" alt="image"/>
+                <div class="article__paragraph-bottom--grid">
+                    <h1>Heading</h1>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa praesentium illum dolorum dolores
+                        quod magnam error soluta, esse assumenda eum eius ea. </p>
+                    <div class="article__bottom--grid">
+                        <div class="buttons">
+                            <button type="button" class="article-bottom__button">Read</button>
+                            <button type="button" class="article-bottom__button">Share</button>
+                        </div>
+                        <b class="bottom__count--flex">316 words</b>
+                    </div>
+                </div>
+            </article>
+            <article class="articles__article">
+                <img src="https://picsum.photos/id/146/200/150" alt="image"/>
+                <div class="article__paragraph-bottom--grid">
+                    <h1>Heading</h1>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa praesentium illum dolorum dolores
+                        quod magnam error soluta, esse assumenda eum eius ea. </p>
+                    <div class="article__bottom--grid">
+                        <div class="buttons">
+                            <button type="button" class="article-bottom__button">Read</button>
+                            <button type="button" class="article-bottom__button">Share</button>
+                        </div>
+                        <b class="bottom__count--flex">316 words</b>
+                    </div>
+                </div>
+            </article>
+            <article class="articles__article">
+                <img src="https://picsum.photos/id/281/200/150" alt="image"/>
+                <div class="article__paragraph-bottom--grid">
+                    <h1>Heading</h1>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa praesentium illum dolorum dolores
+                        quod magnam error soluta, esse assumenda eum eius ea.</p>
+                    <div class="article__bottom--grid">
+                        <div class="buttons">
+                            <button type="button" class="article-bottom__button">Read</button>
+                            <button type="button" class="article-bottom__button">Share</button>
+                        </div>
+                        <b class="bottom__count--flex">316 words</b>
+                    </div>
+                </div>
+            </article>
+            <article class="articles__article">
+                <img src="https://picsum.photos/id/390/200/150" alt="image"/>
+                <div class="article__paragraph-bottom--grid">
+                    <h1>Heading</h1>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa praesentium illum dolorum dolores
+                        quod magnam error soluta, esse assumenda eum eius ea.</p>
+                    <div class="article__bottom--grid">
+                        <div class="buttons">
+                            <button type="button" class="article-bottom__button">Read</button>
+                            <button type="button" class="article-bottom__button">Share</button>
+                        </div>
+                        <b class="bottom__count--flex">316 words</b>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
+</main>
 </body>
 </html>

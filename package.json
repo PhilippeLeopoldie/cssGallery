@@ -4,7 +4,7 @@
   "description": "A test of CSS skills",
   "main": "index.js",
   "scripts": {
-    "lint": "stylelint 'src/*.css'",
+    "lint": "stylelint 'src/style.css'",
     "start": "npx http-server src",
     "cypress": "cypress open",
     "test": "cypress run"
@@ -26,7 +26,7 @@
   "homepage": "https://github.com/appliedtechnology/jsfs-test-cssGallery#readme",
   "devDependencies": {
     "cypress": "^9.6.0",
-    "stylelint": "^14.8.2",
+    "stylelint": "^14.16.1",
     "stylelint-config-standard": "^25.0.0",
     "stylelint-no-unsupported-browser-features": "^5.0.3",
     "stylelint-selector-bem-pattern": "^2.1.1"
