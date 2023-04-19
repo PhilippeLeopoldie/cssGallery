@@ -1,4 +1,4 @@
-# ASSIGNMENT : News Gallery
+# ASSIGNMENT : Css News Gallery
 
 This test is all about HTML and CSS - and we're going to build a News site (without any functionality). Your task is simple: make a complete HTML page looking like the designs below.
 
